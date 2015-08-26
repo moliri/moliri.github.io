@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--Please note that is site is SATIRICAL and in NO WAY means imply that reducing a woman to a sandwich maker is okay. -->
 <html lang="en-US">
 
 <head>
@@ -9,57 +8,120 @@
     <meta name="author" content="">
 	<link rel="shortcut icon" href="img/favicon.ico" >
 
-    <title>Leesha Maliakal</title>
+    <!-- CSS -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="css/moliri.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- Fonts -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Slabo+27px|Lato|Open+Sans|Raleway|Bitter' rel='stylesheet' type='text/css'>
 
-    <!-- jQuery/jQuery Mobile/jQuery Mobile CSS -->
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
 
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
-    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
+    <!-- JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script> 
+    <script src="js/moliri.js"></script>
 
     <!-- Parse files -->
     <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
 
-    <link href="css/moliri.css" rel="stylesheet">
-    <script src="js/moliri.js"></script>
+    <title>Leesha Maliakal</title>
+
 </head>
 
 <body>
-
+    <nav>
+        <ul class="menu">
+            <li class="menu-button-left">
+                <h3> Leesha Maliakal </h3>
+            <li class="menu-button-right">
+                <a href="#contact">contact</a>
+            </li>
+            <li class="menu-button-right">
+                <a href="https://goo.gl/9Q8sza">resume</a>
+            </li>
+            <li class="menu-button-right">
+                <a href="#work">work</a>
+            </li>
+            <li class="menu-button-right">
+                <a href="#about">about</a>
+            </li>
+        </ul>
+    </nav> 
 	<!-- Intro Page -->
-    <div data-role="page" id="intropage" class="intro"> 
-        <div data-role="content" class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-						</br>
-						</br>
-                        <h2 class="brand-heading">Moliri</h2>
-						<div>
-							<img src="img/profile.jpg" id="profile">
-						</div>
-						</br>
-                        <p class="intro-text">To undertake, to struggle, to build.</p>
-						</br>
-						<div class="page-scroll">
-                            <a id="startbtn" class="btn btn-circle">
-                                <i class="fa fa-angle-double-down animated"></i>
-                            </a>
-                        </div>
-                        
-                    </div>
-                </div>
+    <div data-role="page" id="intro" class="intro">
+        <div class="wrapper">
+            <br>
+            <h2>moliri</h2>
+            <p class="intro-text"> (latin, v) to endeavor, to attempt, to create</p>
+            <br>
+            <p>~~content coming soon~~</p>
+           <!--  <div class="banner">
+                <noscript>
+                    <p>This Page Requires Javascript in Order to Function</p>
+                </noscript>
+                <ul class="bxslider">
+                    <li>
+                        <a href="http://www.chow.com/recipes/29193-basic-fish-tacos">
+                            <h3>to endeavor</h3>
+                            <img src="./img/intro-bg.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://m.allrecipes.com/recipe/23600/worlds-best-lasagna/?mxt=t06rda">
+                            <h3>How do you make lasagna?</h3>
+                            <img src="http://i.huffpost.com/gen/1427405/images/o-SAUSAGE-LASAGNA-facebook.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://silk.com/recipes/garlic-mashed-potatoes">
+                            <h3>How do you make mashed potatoes? </h3>
+                            <img src="https://silk.com/sites/default/files/recipes/medium/GarlicMashedPotatoes_DT.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div data-role="page" id="about" class="about"> 
+        <div class="wrapper">
+            <div class="profile">
+                <br>
+                <h4>about</h4>
+                <br>
+                <img src="./img/profile.png">
+                <p> 
+                    Leesha Maliakal is a recent graduate of the Computer Science program at Northwestern University. She is interested in human computer interaction and artificial intelligence, including areas like tangible interface design, crowdsourcing, game design, mobile development, natural language processing, and machine learning. For the past year, she has conducted crowdsourcing research under the advisement of Haoqi Zhang at Delta Lab. Her current research explores physical crowdsourcing, specifically, eliciting motivation from a crowd and applying it to a given need. 
+                </p>
             </div>
         </div>
     </div>
-	
+
+    <!-- Work Page -->
+    <div data-role="page" id="work" class="work"> 
+        <div class="wrapper">
+            <div class="profile">
+                <br>
+                <h4>work</h4>
+                <br>
+                <p>~~content coming soon~~</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div data-role="page" id="contact" class="contact"> 
+        <div class="wrapper">
+            <div class="profile">
+                <br>
+                <h4>contact</h4>
+                <br>
+                <p>~~content coming soon~~</p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
