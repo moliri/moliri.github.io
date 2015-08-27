@@ -3,7 +3,8 @@ body {
     height: 100%;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    background-color: #e2dede;
+    /*background-color: #e2dede;*/
+    background-color: #E4E2DB;
     margin: 0px;
 }
 
@@ -46,6 +47,10 @@ a:focus {
     color: #D95B5B;
 }
 
+img { 
+   border:1px solid #021a40;
+}
+
 .wrapper
 {
     padding: none;
@@ -62,6 +67,7 @@ nav
     margin-top: 0px;
     border-bottom: 1px solid #ddd;
     overflow: auto;
+    float: top;
 }
 
 footer {
@@ -168,6 +174,16 @@ nav h3
     color: #003b58;
     font-style: normal;
     
+}
+
+.about a {
+    color: #D95B5B
+}
+
+.about a:hover,
+a:focus {
+    text-decoration: none;
+    color: #AD4848;
 }
 
 .about img {
