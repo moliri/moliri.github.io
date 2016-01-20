@@ -1,161 +1,113 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
-	<link rel="shortcut icon" href="img/favicon.ico" >
-
-    <!-- CSS -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
-    <link href="css/moliri.css" rel="stylesheet">
-
-
-    <!-- Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab|Bree+Serif|Shadows+Into+Light|Gochi+Hand|Bitter' rel='stylesheet' type='text/css'>
-
-
-    <!-- JS -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script> 
-    <script src="js/moliri.js"></script>
-
-    <!-- Parse files -->
-    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+    <meta name="author" content="Leesha Maliakal">
 
     <title>Leesha Maliakal</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
-    <nav>
-        <ul class="menu">
-            <li class="menu-button-left">
-                <a href="index.html"><h3> Leesha Maliakal </h3></a>
-            <li class="menu-button-right">
-                <a href="#contact">contact</a>
-            </li>
-            <li class="menu-button-right">
-                <a href="https://goo.gl/yMqRQF">resume</a>
-            </li>
-            <li class="menu-button-right">
-                <a href="#news">news</a>
-            </li>
-            <li class="menu-button-right">
-                <a href="#work">work</a>
-            </li>
-            <li class="menu-button-right">
-                <a href="#about">about</a>
-            </li>
-        </ul>
-    </nav> 
-	<!-- Intro Page -->
-    <div data-role="page" id="intro" class="intro">
-        <div class="wrapper">
-            <br>
-            <h2>moliri</h2>
-            <p class="intro-text"> (latin, v) to endeavor, to attempt, to create</p>
-            <br>
-            <p>~~content coming soon~~</p>
-        </div>
-    </div>
 
-    <!-- About Page -->
-    <div data-role="page" id="about" class="about"> 
-        <div class="wrapper">
-            <div class="profile">
-                <br>
-                <h4>about:</h4>
-                <br>
-                <img src="./img/profile.png">
-                <p> 
-                    Leesha Maliakal is a recent graduate of the <a href="http://www.eecs.northwestern.edu">Computer Science</a> program at Northwestern University. She is interested in human computer interaction and artificial intelligence, including areas like tangible interface design, crowdsourcing, social computing, game design, mobile development, natural language processing, and machine learning. For the past year, she has conducted crowdsourcing research under the advisement of <a href="http://users.eecs.northwestern.edu/~hq/">Haoqi Zhang</a> at <a href="http://delta.northwestern.edu/">Delta Lab</a>. Her <a href="http://dtr.meteor.com/projects/crowd_cheer">current research</a> explores physical crowdsourcing, specifically, eliciting motivation from an ad-hoc crowd and applying it to a given need. 
-                </p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Leesha Maliakal</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="LMaliakal_CV.pdf">CV</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>moliri</h1>
+                        <hr class="small">
+                        <span class="subheading">(latin, v) to endeavor, to attempt, to create</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p> -->
             </div>
         </div>
     </div>
 
-    <!-- Work Page -->
-    <div data-role="page" id="work" class="work"> 
-        <div class="wrapper">
-            <div class="profile">
-                <br>
-                <h4>work:</h4>
-                <br>
-                <p>CrowdCheer [Winter 2014-present]</p>
-                <p>inShape [Winter 2014]</p>
-                <p>Makeathon [Fall 2014]</p>
-                <p>DIY Concert Scene [Fall 2014]</p>
-                <p>ColorBeads [Spring 2014]</p>
-                <p>Foodly [Spring 2014]</p>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class="copyright text-muted">Copyright &copy; moliri 2016</p>
+                </div>
             </div>
         </div>
-    </div>
+    </footer>
 
-    <!-- News Page -->
-    <div data-role="page" id="news" class="news"> 
-        <div class="wrapper">
-            <div class="profile">
-                <br>
-                <h4>news:</h4>
-                <br>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-                <h5>awards</h5>
-                <p>
-                    Grace Hopper ACM Student Research Competition 2nd Place Finalist, <i> October 2015</i>
-                    <br>
-                    Northwestern Undergraduate Research Grant, <i> February 2015</i>
-                </p>
-                <br>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-                
-                <h5>posters | abstracts | wips</h5>
-                <p> 
-                    CrowdCheer: Situational Crowdsourcing of Motivation for Runners, <i>Grace Hopper ACM Student Research Competition 2015</i> &nbsp;&nbsp;&nbsp;
-                    <a href="https://www.dropbox.com/s/clc3qk4hgobs2yt/CrowdCheer%20GHC%20Proposal.pdf?dl=0"> [Abstract] </a>
-                    <a href="https://www.dropbox.com/s/s8ibolqqu6ff9uo/CrowdCheer%20GHC%20Poster.pdf?dl=0"> [Poster] </a>
-                    <a href="https://www.dropbox.com/s/vya3sg78bbv6b3o/CrowdCheer%20GHC%20Presentation.pdf?dl=0"> [Slides] </a>
-                </p>
-                <br>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
 
-                <h5>papers</h5>
-                <p>~~coming soon~~</p>
-                <br>
-
-                <h5>news</h5>
-                <a href="http://www.mccormick.northwestern.edu/eecs/news/articles/2015/graduate-wins-second-place-in-acm-student-research-competition.html"> Graduate Wins Second Place in ACM Student Research Competition, <i> McCormick School of Engineering, Department of Electrical Engineering & Computer Science</i> </a> 
-                <br>
-                <a href="http://issuu.com/reginadominicanhighschool/docs/regina_magazine_090415_web2/32">Sisters in STEM, <i>Regina Dominican Veritas Magazine 2015</i> </a>
-                <br>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Page -->
-    <div data-role="page" id="contact" class="contact"> 
-        <div class="wrapper">
-            <div class="profile">
-                <br>
-                <h4>contact:</h4>
-                <br>
-                
-                <a class="icon-link round github" href="https://github.com/moliri"><i class="fa fa-github"></i></a>
-                <a class="icon-link round twitter" href="https://twitter.com/lmaliakal"><i class="fa fa-twitter"></i></a>
-                <a class="icon-link round linkedin" href="https://www.linkedin.com/in/lmaliakal"><i class="fa fa-linkedin"></i></a>
-                <a class="icon-link round envelope" href="mailto:lmaliakal@u.northwestern.edu"><i class="fa fa-envelope"></i></a>
-
-                <!-- <a class="icon-link round facebook"><i class="fa fa-facebook"></i></a>
-                <a class="icon-link round tumblr"><i class="fa fa-tumblr"></i></a>
-                <a class="icon-link round google-plus"><i class="fa fa-google-plus"></i></a>
-                <a class="icon-link round reddit"><i class="fa fa-reddit"></i></a>
-                <a class="icon-link round youtube"><i class="fa fa-youtube"></i></a>
-                <a class="icon-link round pinterest"><i class="fa fa-pinterest"></i></a>
-                <a class="icon-link round soundcloud"><i class="fa fa-soundcloud"> --></i></a>
-            </div>
-        </div>
-    </div>
 </body>
+
 </html>
