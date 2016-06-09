@@ -27,6 +27,10 @@ h6 {
   /*font-family: 'Muli', sans-serif;*/
   font-weight: 800;
 }
+
+#mission {
+  text-align: center;
+}
 a {
   color: #404040;
 }
