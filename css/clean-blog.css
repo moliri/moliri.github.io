@@ -31,11 +31,10 @@ h5,
 h6 {
   /*font-family: 'Lato', sans-serif;*/
   /*font-family: 'Muli', sans-serif;*/
-  font-weight: 800;
 }
 
 #pageHeader {
-  font-family: 'Quattrocento', serif;
+  font-family: 'Patua One', cursive;
 }
 
 #pageSubheader {
@@ -44,17 +43,17 @@ h6 {
 }
 
 #mission {
-  font-family: 'Quattrocento', serif;
+  font-family: 'Patua One', cursive;
   text-align: center;
 }
 
 #section {
-  font-family: 'Quattrocento', serif;
+  font-family: 'Patua One', cursive;
 
 }
 
 #subsection {
-  font-family: 'Quattrocento', serif;
+  font-family: 'Patua One', cursive;
 
 }
 
