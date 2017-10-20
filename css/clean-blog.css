@@ -33,6 +33,15 @@ h6 {
   /*font-family: 'Muli', sans-serif;*/
 }
 
+#dtr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
 #pageHeader {
   font-family: 'Patua One', cursive;
 }
@@ -58,10 +67,10 @@ h6 {
 }
 
 img.resize {
-  /*max-width: 30%;
-  max-height: 30%;*/
-  height: 150px;
-  width: 150px;
+  max-width: 30%;
+  max-height: 30%;
+  /*height: 150px;
+  width: 150px;*/
 }
 
 a {
@@ -96,11 +105,11 @@ hr.small {
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 28px;
 }
 .navbar-custom .nav li a {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 16px;
   font-weight: 800;
   letter-spacing: 1px;
