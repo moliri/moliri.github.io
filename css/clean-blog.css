@@ -66,6 +66,14 @@ h6 {
 
 }
 
+#paper-award {
+  background-color:#edb055; 
+  color:#FFFFFF;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  font-weight: bold;
+}
+
 img.resize {
   max-width: 30%;
   max-height: 30%;
