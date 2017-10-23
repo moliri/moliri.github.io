@@ -114,11 +114,11 @@ hr.small {
 .navbar-custom .navbar-brand {
   font-weight: 800;
   text-transform: lowercase;
-  font-size: 28px;
+  font-size: 30px;
 }
 .navbar-custom .nav li a {
   text-transform: lowercase;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
   letter-spacing: 1px;
 }
