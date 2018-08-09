@@ -11,20 +11,20 @@
     <link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/ix8r7ipvlhml9ad/favicon-32x32.png" type="image/x-icon">
     <link rel="icon" href="https://dl.dropboxusercontent.com/s/ix8r7ipvlhml9ad/favicon-32x32.png" type="image/x-icon">
 
-	<!-- Bootstrap Core CSS -->
+	<!-- CSS -->
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href='css/CrowdCheer.css' rel="stylesheet">
 
     <!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Patua+One|Oxygen+Mono|Source+Sans+Pro" rel="stylesheet">
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://dl.dropboxusercontent.com/s/30xesw2vhtf90xr/CrowdCheer.css' rel="stylesheet">
 
     <!-- jQuery/jQuery Mobile/jQuery Mobile CSS -->
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
 
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script> 
-    <script src="https://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Google Analytics -->
     <script>
@@ -41,38 +41,97 @@
 </head>
 
 <body>
-	<div data-role="page" id="intropage" class="intro"> 
+	<div data-role="page" id="intropage" class="intro">
         <div data-role="content" class="intro-body">
             <div class="container">
                 <div class="row">
                     <div id="target" class="col-md-8 col-md-offset-2">
                         <h2 class="brand-heading">Welcome to CrowdCheer!</h2>
-						<p class="intro-text">
-							CrowdCheer is an iOS app that helps spectators at races to cheer on runners when they need support.  
-						</p>
 
-                        <p class="intro-text" id="success">1. Let us know if you're a coach, student, or family <a href = "https://docs.google.com/forms/d/e/1FAIpQLSczB21qOmuXfx1ctJHsaomrsAMhPgWaUBTRo5x3sB0_yK1gIA/viewform">in this form </a>. </p>
+
+												<p class="intro-text">
+													We are researching how to crowdsource motivational support for runners from spectators in the crowd. CrowdCheer is an iOS app that helps spectators to track and cheer on runners during the race.
+												</p>
+
+												<h3 class="brand-heading"> What do I get if I participate? </h3>
+												<p class="intro-text">
+													Runners:
+													<ul>
+														<li>$30 Amazon gift card</li>
+														<li>$10 bonus for every spectator you recruit that cheers for you using the app (spectator rules below) -- recruit as many supporters as you want, but we will cap the bonus at $50 extra.</li>
+													</ul>
+												</p>
+
+												<p class="intro-text">
+													Spectators:
+													<ul>
+														<li>$30 Amazon gift card</li>
+													</ul>
+												</p>
+
+
+													<h3 class="brand-heading">What does this study involve?</h3>
+													<p class="intro-text">
+														Runners:
+														<ul>
+															<li>Installing and using CrowdCheer during your race to track your run (much like Runkeeper)</li>
+															<li>Filling out a (5 min) pre-survey now, and a (15 min) post-survey after the race</li>
+															<li>Doing a (20 min) phone/video interview the week after the race at any time that is convenient for you</li>
+
+														</ul>
+													</p>
+
+													<p class="intro-text">
+														Spectators:
+														<ul>
+															<li>Being out on the race course to cheer during the race</li>
+															<li>Installing and using CrowdCheer to cheer for runners during the race (The app will help you track and cheer for specific runners (just enter their bib #). Periodically, the app will ask you to cheer for other runners at the race. Respond however you like!) </li>
+															<li>Filling out a (5 min) pre-survey now, and a (15 min) post-survey after the race</li>
+															<li>Doing a (20 min) phone/video interview the week after the race at any time that is convenient for you</li>
+														</ul>
+													</p>
+
+												<h3 class="brand-heading">How do I get started?</h3>
+
+                        <p class="intro-text" id="success">1. Fill out the 5 min <a href = "https://docs.google.com/forms/d/e/1FAIpQLScbUxr-TvQYWta9prAjg907b5a7zcHgjy2mulKIiZbcUKwY5g/viewform">pre-survey</a>. </p>
                         <p class="intro-text" id="success">2. Download CrowdCheer (You must be on your iPhone to download the app!)</p>
-                        <a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/y99xyz6mw03ewnj/CrowdCheer.plist" class="btn btn-info" id="btnInfo" >Download</a>
+												<div style="text-align:center;">
+                        	<a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/s/y99xyz6mw03ewnj/CrowdCheer.plist" class="btn btn-info" id="btnInfo" >Download</a>
+												</div>
                         <p>
                         <p>
                         <p class="intro-text" id="success">3. Go to your home screen to open the app. </p>
                         <p>
                         <p>
-                        <p class="intro-text" id="success">4. You may see a message about "Untrusted Developer". This is because our app is for research and not on the App Store yet. Go to SETTINGS > GENERAL > DEVICE MANAGEMENT > NORTHWESTERN UNIVERSITY and Trust Northwestern to open the app.</p>
+                        <p class="intro-text" id="success">4. You may see a message about "Untrusted Developer". This is because our app is for research and not on the App Store yet. Go to SETTINGS > GENERAL > DEVICE MANAGEMENT > NORTHWESTERN UNIVERSITY and Trust Northwestern to open the app. (image below)</p>
                         <p class="intro-text" id="success"><img src="https://dl.dropboxusercontent.com/s/ye1jwxqauy1s69f/trust.png" style= "max-width: 100%; height:auto;"><p>
-                        <p class="intro-text" id="success"> 5. Use the <a href = "http://leesha.io/docs/crowdcheerGuide.pdf"> setup guide </a> to create an account and use the app to track your run or cheer for runners near you! </p>
+                        <p class="intro-text" id="success"> 5. Set up the CrowdCheer app for the race using the guides below:
+
+													<p class="intro-text">
+														Runners:
+														<embed src="docs/crowdcheerGuide.pdf" type="application/pdf" width="100%" height="100%">
+
+													</p>
+
+													<p class="intro-text">
+														Spectators:
+														<embed src="docs/crowdcheerGuide.pdf#page=8" type="application/pdf" width="100%" height="100%">
+
+													</p>
+
+												</p>
 
                         <p>
 
-                        <p class="intro-text" id="success">For more information, check out <a href="http://delta.northwestern.edu/ongoing-projects" > our lab site </a> or <a href="mailto:lmaliakal@u.northwestern.edu"> send me an email </a>with questions and concerns.</p>
+												<h3 class="brand-heading">Questions or comments?</h3>
+												<p class="intro-text" id="success">For more information, check out <a href="http://delta.northwestern.edu/ongoing-projects" > our lab site </a> or <a href="mailto:lmaliakal@u.northwestern.edu"> send me an email </a>with questions and concerns.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-	
+
 </body>
 
 </html>
