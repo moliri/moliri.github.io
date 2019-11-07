@@ -77,6 +77,10 @@
   height: auto;
 }
 
+#header {
+    margin-bottom: 10px;
+}
+
 body {
     color: #404040;
     background: #fafafa !important;
@@ -95,6 +99,12 @@ html {
 ::-moz-selection {
     background-color: #1abc9c;
     color: #ffffff;
+}
+
+hr {
+  border-top-color: #a0a0a0;
+  border-top-style: dashed;
+  border-top-width: 1px;
 }
 
 a {
