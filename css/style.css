@@ -78,7 +78,7 @@
 }
 
 #header {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #toc {
@@ -178,6 +178,7 @@ a:active {
     text-decoration: none;
     outline: none;
     color: #FFB832;
+    font-size: 20px;
 }
 
 b {
