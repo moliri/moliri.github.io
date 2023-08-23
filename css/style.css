@@ -50,6 +50,15 @@
   font-family: 'Inconsolata', monospace;
 }
 
+#mindset {
+  background-color:#edb055;
+  color:#FFFFFF;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  font-weight: bold;
+  font-family: 'Inconsolata', monospace;
+}
+
 #continualsupport {
   background-color:#CC604F;
   color:#FFFFFF;
