@@ -55,8 +55,7 @@
   color:#FFFFFF;
   padding-left: 0.3em;
   padding-right: 0.3em;
-  font-weight: bold;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Outfit', monospace;
 }
 
 #continualsupport {
@@ -91,7 +90,7 @@
 }
 
 #toc {
-  font-family: 'Hind', monospace;
+  font-family: 'Jost', monospace;
 }
 
 .blinking-cursor {
@@ -197,7 +196,7 @@ b {
 
 p, ul {
     font-size: 14px;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Jost', sans-serif;
     line-height: 125%;
 }
 
@@ -373,13 +372,13 @@ div.blog-post {
     color: #8c8c8c;
 }
 
-.blog-post p {
+.blog-post p, ul {
     font-size: 16px;
     line-height: 125%;
     color: #696868;
     font-weight: 300;
     letter-spacing: 0.8px;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
 .blog-post #subsection {
