@@ -31,6 +31,23 @@
 */
 
 
+function buttonClicked1() {
+    document.write("hello, students!");
+}
+
+function buttonClicked2() {
+    alert("hello, students!");
+}
+
+function mousedOver() {
+    dare.innerHTML="Hello!";
+}
+
+function mouseOut() {
+    dare.innerHTML = "Goodbye!";
+}
+
+
 (function ($) {
     'use strict';
 
