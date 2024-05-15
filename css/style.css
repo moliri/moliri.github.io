@@ -58,6 +58,15 @@
   font-family: 'Outfit', monospace;
 }
 
+#mission {
+  background-color:#CC604F;
+  color:#FFFFFF;
+  font-size: 18px;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  font-family: 'Outfit', monospace;
+}
+
 #continualsupport {
   background-color:#CC604F;
   color:#FFFFFF;
