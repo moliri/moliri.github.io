@@ -394,6 +394,13 @@ div.blog-post {
     font-family: 'Jost', sans-serif;
 }
 
+.blog-post #section {
+   font-family: 'Inconsolata', monospace;
+   font-size: 25px;
+   line-height: 28px;
+   font-weight: 400;
+}
+
 .blog-post #subsection {
    font-family: 'Inconsolata', monospace;
    font-size: 20px;
