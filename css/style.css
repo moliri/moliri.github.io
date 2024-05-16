@@ -55,16 +55,18 @@
   color:#FFFFFF;
   padding-left: 0.3em;
   padding-right: 0.3em;
-  font-family: 'Roboto', monospace;
+  font-weight: bold;
+  font-family: 'Inconsolata', monospace;
 }
 
 #mission {
   background-color:#CC604F;
   color:#FFFFFF;
-  font-size: 16px;
+  font-size: 18px;
   padding-left: 0.3em;
   padding-right: 0.3em;
-  font-family: 'Roboto', monospace;
+  font-weight: bold;
+  font-family: 'Inconsolata', monospace;
 }
 
 #continualsupport {
