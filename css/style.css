@@ -55,16 +55,16 @@
   color:#FFFFFF;
   padding-left: 0.3em;
   padding-right: 0.3em;
-  font-family: 'Outfit', monospace;
+  font-family: 'Roboto', monospace;
 }
 
 #mission {
   background-color:#CC604F;
   color:#FFFFFF;
-  font-size: 18px;
+  font-size: 16px;
   padding-left: 0.3em;
   padding-right: 0.3em;
-  font-family: 'Outfit', monospace;
+  font-family: 'Roboto', monospace;
 }
 
 #continualsupport {
@@ -99,7 +99,7 @@
 }
 
 #toc {
-  font-family: 'Jost', monospace;
+  font-family: 'Inconsolata', monospace;
 }
 
 .blinking-cursor {
@@ -179,7 +179,7 @@ html {
 }
 
 hr {
-  border-top-color: #a0a0a0;
+  border-top-color: #a0a0a0;z
   border-top-style: dashed;
   border-top-width: 1px;
 }
@@ -205,7 +205,7 @@ b {
 
 p, ul {
     font-size: 14px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 125%;
 }
 
@@ -296,7 +296,7 @@ iframe {
 
 
 .button:before {
-    font-family: 'FontAwesome';
+    font-family: 'Roboto';
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -364,7 +364,6 @@ div.blog-post {
     font-family: 'Inconsolata', monospace;
     font-size: 35px;
     line-height: 45px;
-    font-weight: 700;
     margin-top: 24px;
 }
 
@@ -373,7 +372,6 @@ div.blog-post {
     font-family: 'Inconsolata', monospace;
     font-size: 35px;
     line-height: 45px;
-    font-weight: 700;
     margin-top: 24px;
 }
 
@@ -386,12 +384,12 @@ div.blog-post {
 }
 
 .blog-post p, ul {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 125%;
     color: #696868;
     font-weight: 300;
     letter-spacing: 0.8px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .blog-post #section {
@@ -430,7 +428,7 @@ div.blog-post {
 
 .post-quote blockquote:after {
     content: '\f10e';
-    font-family: 'fontawesome';
+    font-family: 'Roboto';
     display: inline-block;
     float: right;
     color: #333333;
@@ -1155,7 +1153,7 @@ blockquote {
 .tooltip.top {
     margin-top: -2px;
     font-size: 14px;
-    font-family: 'PT Serif', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .tooltip.bottom {
