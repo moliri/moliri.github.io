@@ -713,7 +713,7 @@ blockquote {
        font-weight: 400;
     }
 
-    .blog-post p {
+    .blog-post p, ul {
        font-size: 14px;
        line-height: 28px;
        font-weight: 400;
